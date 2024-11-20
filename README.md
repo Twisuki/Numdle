@@ -24,7 +24,10 @@
     > Numdle Python.py
 3. 2024-11-17 Python写完后, 编写了Java版本
     > Numdle Java.java
+4. 2024-11-20 编写了Kotlin版本
+	> Numdle Kotlin.kt
 
 ## 注意
 
 1. C++文件使用UTF-8编码, 若直接编译到cmd执行会产生乱码
+2. 编写了JavaScript版本, 但是异步输入原因导致无法正常运行

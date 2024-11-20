@@ -1,4 +1,4 @@
-// Numdle in cpp
+// Numdle in Java
 // Nya_Twisuki
 
 import java.util.Scanner;
@@ -12,7 +12,7 @@ class Numdle {
         System.out.println("---------------------------");
         System.out.println("规则很简单");
         System.out.println("输入一个数字, 猜测随机数");
-        System.out.println("^表示该数和位置均正确;\n - 表示存在这个数, 但位置不对;\n * 表示不存在此数");
+        System.out.println("^ 表示该数和位置均正确;\n- 表示存在这个数, 但位置不对;\n* 表示不存在此数");
         System.out.println("你有5次机会, 开始吧");
 
         int n;
@@ -51,6 +51,7 @@ class Numdle {
                     for (int j = 0; j < n; ++ j) {
                         if (guess[i] == num[j]) {
                             isContained = true;
+                            break;
                         }
                     }
 
